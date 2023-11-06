@@ -2,7 +2,7 @@ import s from './footer.module.css';
 
 const OurStory = () => {
   return (
-    <div className={s.column}>
+    <section className={s.column}>
             <h3>Information</h3>
             <ul>
               <li>
@@ -24,7 +24,7 @@ const OurStory = () => {
                 <a href="#">Contact</a>
               </li>
             </ul>
-          </div>
+          </section>
   )
 }
 

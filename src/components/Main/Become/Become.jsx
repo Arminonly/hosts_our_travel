@@ -7,7 +7,7 @@ import Card from './Card';
 
 const Become = () => {
   return (
-    <div className="container">
+    <section className="container">
       <div className={s.become}>
         <div className={s.container}>
           <div className={s.body}>
@@ -25,7 +25,7 @@ const Become = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

@@ -2,7 +2,7 @@ import s from './newsletter.module.css';
 
 const Newsletter = () => {
   return (
-    <div className="container">
+    <section className="container">
       <div className={s.container}>
         <div className={s.img}>
           <div className={s.body}>
@@ -25,7 +25,7 @@ const Newsletter = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

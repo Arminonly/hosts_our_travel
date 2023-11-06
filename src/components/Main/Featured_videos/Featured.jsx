@@ -5,7 +5,7 @@ import s from './featured.module.css';
 
 const Featured = () => {
   return (
-    <div className="container">
+    <section className="container">
       <div className={s.container}>
         <div className={s.title}>
           <div>Featured Videos</div>
@@ -27,7 +27,7 @@ const Featured = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

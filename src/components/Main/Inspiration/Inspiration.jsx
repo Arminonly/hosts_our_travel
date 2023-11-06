@@ -6,7 +6,7 @@ import BottomRow from './BottomRow';
 
 const Inspiration = () => {
   return (
-    <div className="container">
+    <section className="container">
       <div className={s.inspiration}>
         <Description />
         <div className={s.parent}>
@@ -15,7 +15,7 @@ const Inspiration = () => {
           <BottomRow />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

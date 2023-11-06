@@ -6,7 +6,7 @@ const Mother = () => {
   return (
     <>
       <div className="container">
-        <div className={s.mother}>
+        <section className={s.mother}>
           <div className={s.container}>
             <Header />
             <div className={s.new_book}>
@@ -14,7 +14,7 @@ const Mother = () => {
             </div>
             <MotherContainer />
           </div>
-        </div>
+        </section>
       </div>
     </>
   );

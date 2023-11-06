@@ -2,7 +2,7 @@ import s from './footer.module.css';
 
 const Company = () => {
   return (
-    <div className={s.column}>
+    <section className={s.column}>
             <h3>Company</h3>
             <ul>
               <li>
@@ -24,7 +24,7 @@ const Company = () => {
                 <a href="#">Driver Centre</a>
               </li>
             </ul>
-          </div>
+          </section>
   )
 }
 
