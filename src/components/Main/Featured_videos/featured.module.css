@@ -1,0 +1,73 @@
+.container {
+  margin: 0 auto;
+  width: 100%;
+  height: 1080px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.title {
+  width: 767px;
+  height: 152px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title div {
+  width: 100%;
+  height: 80px;
+  font-size: 64px;
+  text-align: center;
+  line-height: 80px;
+  color: #1c2e3d;
+}
+.title p {
+  width: 634px;
+  height: 48px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #788692;
+}
+
+.videos {
+  width: 100%;
+  height: 669px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.videos img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.videos div:first-child {
+  width: 23%;
+  height: 551px;
+}
+
+.videos div:last-child {
+  margin-top: 70px;
+  width: 23%;
+  height: 490px;
+}
+.videos div {
+  width: 50%;
+  height: 100%;
+  background: url('../../../Ui/img/featured_videos/church.png');
+  background-size: 100% 100%;
+  display: flex;
+}
+
+div img[data-set='img'] {
+  width: 112px;
+  height: 112px;
+  margin: 40px;
+  cursor: pointer;
+}

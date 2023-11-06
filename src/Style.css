@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap');
+
+:root{
+    --color:#ffffff; 
+    --let-space:2px;
+    --fsz:12px;
+    --lh:14px;
+    --cur:pointer;
+}
+.container{
+    width:1920px;
+    margin: 0 auto;
+}
+

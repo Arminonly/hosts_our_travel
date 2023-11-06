@@ -1,0 +1,30 @@
+.button {
+  width: 266px;
+  height: 80px;
+  background: #73afba;
+  border-radius: 5px;
+}
+
+.button span {
+  width: 109px;
+  height: 14px;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  color: var(--color);
+}
+
+.featured {
+  width: 132px;
+  height: 48px;
+  background: #e8594e;
+  border-radius: 25px;
+}
+.featured span {
+  width: 70px;
+  height: 13px;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 2px;
+  color: var(--color);
+}

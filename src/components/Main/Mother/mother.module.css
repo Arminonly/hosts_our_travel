@@ -1,0 +1,173 @@
+.mother {
+  width: 100%;
+  height: 1080px;
+  background-image: url('../../../Ui/img/mother_earth/mother.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 1566px;
+  margin: 0 auto;
+}
+.header {
+  width: 100%;
+  display: flex;
+  padding-top: 50px;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  width: 70px;
+  height: 20px;
+  cursor: var(--cur);
+}
+
+.title {
+  width: 123px;
+  height: 26px;
+  line-height: 25px;
+  font-size: 22px;
+  letter-spacing: var(--let-space);
+  color: var(--color);
+}
+.burger {
+  display: flex;
+  justify-content: flex-end;
+  width: 48px;
+  color: var(--color);
+  cursor: var(--cur);
+}
+
+.new_book {
+  width: 132px;
+  height: 48px;
+}
+.new_book span {
+  width: 73px;
+  height: 13px;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: var(--let-space);
+  color: var(--color);
+  padding-left: 30px;
+  text-transform: uppercase;
+}
+
+.mother_body {
+  display: flex;
+  margin-top: 50px;
+  width: 100%;
+ 
+}
+
+.left {
+  width: 66.66%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.left_title {
+  width: 634px;
+  height: 252px;
+  font-size: 80px;
+  line-height: 84px;
+  color: var(--color);
+  margin-bottom: 50px;
+}
+
+.left_text {
+  width: 501px;
+  height: 66px;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--color);
+  margin-bottom: 50px;
+}
+.left_btn {
+  width: 274px;
+  height: 80px;
+  background: #e8594e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 140px;
+}
+
+.left_btn button {
+  width: 112px;
+  height: 14px;
+  font-size: var(--fsz);
+  line-height: var(--lh);
+  letter-spacing: var(--let-space)  ;
+  color: var(--color);
+}
+
+.left_inputBody {
+  width: 100%;
+  height: 120px;
+  border-radius: 4px, 0px, 0px, 0px;
+  background-color: var(--color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(236, 236, 236, 0.9);
+}
+.left_inputBody input {
+
+  padding-left: 50px;
+}
+.left_inputBody input::placeholder {
+  width: 99px;
+  height: 19px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1c2e3d;
+}
+.left_inputBody > div {
+  padding-right: 50px;
+
+}
+
+.right {
+  width: 33.33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.right_frame {
+  width: 100%;
+  height: 280px;
+  background-image: url('../../../Ui/img/mother_earth/preview.png');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right_frame img, .left_inputBody > div, .right_carusel img{
+  cursor: var(--cur);
+}
+
+.right_carusel {
+  width: 100%;
+  height: 120px;
+  background: #73afba;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: var(--color);
+  font-size: var(--fsz);
+  line-height: var(--lh);
+  letter-spacing: var(--let-space);
+}
+.right_carusel span {
+  width: 168px;
+}
+.right_carusel img {
+  width: 14px;
+  height: 14px;
+}

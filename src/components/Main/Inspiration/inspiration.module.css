@@ -1,0 +1,287 @@
+.inspiration {
+  width: 100%;
+  height: 2025px;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.description {
+  width: 100%;
+  height: 152px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.description p {
+  width: 767px;
+  height: 80px;
+  font-size: 64px;
+  line-height: 80px;
+  text-align: center;
+  color: rgba(28, 46, 61, 1);
+}
+.description span {
+  width: 634px;
+  height: 48px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: rgba(120, 134, 146, 1);
+}
+
+.parent {
+  width: 1568px;
+  height: 1774px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.topAndBottom,
+.middle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog1,
+.blog2,
+.blog3,
+.blog4 {
+  height: 500px;
+}
+.blog1 {
+  width: 1034px;
+  border-radius: 8px;
+  background: url('../../../Ui/img/inspirations/blog1.jpg');
+  position: relative;
+}
+
+.blog1 div h5,
+.blog2 div h5,
+.blog1 div h3,
+.blog2 div h3,
+.blog3 div h3,
+.blog4 div h3,
+.blog3 div h5,
+.blog4 div h5,
+.blog5 h5,
+.blog5 h3,
+.blog7 h3 {
+  position: absolute;
+  color: var(--color);
+  left: 40px;
+  font-style: normal;
+}
+
+.blog1 div h5,
+.blog2 div h5,
+.blog3 div h5,
+.blog4 div h5,
+.blog5 h5,
+.blog6 h5 {
+  width: 85px;
+  height: 12px;
+  bottom: 166px;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+}
+
+.blog1 div h3,
+.blog2 div h3,
+.blog3 div h3,
+.blog4 div h3,
+.blog5 h3,
+.blog7 h3 {
+  height: 40px;
+  bottom: 118px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 125%;
+}
+
+.blog1 > button,
+.blog2 > button {
+  width: 140px;
+  height: 56px;
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  background-color: rgba(9, 14, 12, 0.4);
+  border-radius: 28px;
+  color: var(--color);
+}
+.blog1 > button span,
+.blog2 > button span {
+  color: var(--color);
+  text-align: center;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+}
+
+.blog1 .imgBlock,
+.blog2 .imgBlock,
+.blog3 .imgBlock,
+.blog4 .imgBlock,
+.blog5 .imgBlock,
+.blog7 .imgBlock {
+  margin-top: 30px;
+  position: absolute;
+  left: 40px;
+  bottom: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.blog1 .imgBlock img:nth-child(2),
+.blog2 .imgBlock img:nth-child(2) {
+  z-index: 5;
+  margin-left: -18px;
+}
+.blog1 .imgBlock img:last-child,
+.blog2 .imgBlock img:last-child {
+  margin-left: -18px;
+}
+/* top-right */
+.blog3 {
+  width: 501px;
+  background-image: url('../../../Ui/img/inspirations/blog3.jpg');
+  position: relative;
+  z-index: 0;
+}
+
+.blog3 span,
+.blog4 span {
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.blog3 .imgBlock img:first-child,
+.blog4 .imgBlock img:first-child,
+.blog5 .imgBlock img:first-child,
+.blog7 .imgBlock img:first-child {
+  z-index: 5;
+}
+.blog3 .imgBlock img:last-child,
+.blog4 .imgBlock img:last-child,
+.blog5 .imgBlock img:last-child,
+.blog7 .imgBlock img:last-child {
+  margin-left: -18px;
+  z-index: -1;
+}
+
+/* middle block */
+.blog5,
+.blog7,
+.blog6 {
+  width: 501px;
+  height: 710px;
+}
+
+.blog5 {
+  position: relative;
+  background-image: url('../../../Ui/img/inspirations/blog5.jpg');
+  z-index: 0;
+}
+
+.blog5 h5 {
+  bottom: 204px;
+}
+
+.blog5 h3,
+.blog7 h3 {
+  width: 383px;
+  height: 80px;
+  bottom: 116px;
+}
+
+.blog7 {
+  position: relative;
+  background-image: url('../../../Ui/img/inspirations/blog7.jpg');
+  z-index: 0;
+}
+
+.blog6 {
+  position: relative;
+  background: url('../../../Ui/img/inspirations/blog6.jpg');
+  z-index: 0;
+}
+
+.blog6 h5,
+.blog6 h3 {
+  position: absolute;
+  color: var(--color);
+  text-align: center;
+  font-style: normal;
+}
+
+.blog6 h5 {
+  left: 215px;
+  top: 262px;
+}
+
+.blog6 h3 {
+  width: 343px;
+  height: 160px;
+  left: 79px;
+  top: 289px;
+  font-family: Playfair Display;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 125%;
+}
+
+.blog6 .imgBlock {
+  position: absolute;
+  left: 210px;
+  bottom: 48px;
+}
+
+.blog6 .imgBlock img:last-child {
+  margin-left: -18px;
+}
+
+.blog6::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(21, 28, 36, 0.8961);
+}
+.blog6::after {
+  content: '';
+  position: absolute;
+  color: var(--color);
+}
+
+/* bottom */
+
+.blog4 {
+  position: relative;
+  width: 501px;
+  background-image: url('../../../Ui/img/inspirations/blog4.jpg');
+  z-index: 0;
+}
+.blog2 {
+  position: relative;
+  width: 1034px;
+  background-image: url('../../../Ui/img/inspirations/blog2.jpg');
+  z-index: 0;
+}
