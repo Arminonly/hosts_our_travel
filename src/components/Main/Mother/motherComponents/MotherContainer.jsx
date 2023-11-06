@@ -38,9 +38,7 @@ const MotherContainer = () => {
         </div>
         <div className={s.right_carusel}>
           <img src={left} alt="arrow_left" />
-
           <span>wonderful moutain</span>
-
           <img src={right} alt="arrow_right" />
         </div>
       </div>

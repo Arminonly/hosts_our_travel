@@ -1,4 +1,3 @@
-import { FiUser } from 'react-icons/fi';
 import s from './footer.module.css';
 import Company from './Company';
 import OurStory from './OurStory';
