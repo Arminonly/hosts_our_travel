@@ -1,4 +1,4 @@
-import Description from './description';
+import Description from './Description';
 import s from './inspiration.module.css';
 import TopRow from './TopRow';
 import MiddleRow from './MiddleRow';
